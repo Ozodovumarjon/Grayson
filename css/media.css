@@ -1,0 +1,166 @@
+@media(max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  
+  .ecommerce {
+    padding-bottom: 48px;
+  }
+  
+  .ecommerce__cards {
+    max-width: 550px;
+    margin: 0 auto 30px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  
+  .cards__block {
+    max-width: 550px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  
+  .header__nav .container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .header__list {
+    order: 1;
+  }
+  
+  .header__dropdown {
+    top: 160px;
+  }
+  
+  .header__banner {
+    height: 90vh;
+    padding: 0 15px;
+  }
+  
+  .footer__content .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+  }
+    
+  .footer__list, .footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  
+  .ecommerce__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ecommerce__item {
+    max-width: 355px;
+    width: 100%;
+    height: 220px;
+  }
+  
+  .collection .container {
+    align-items: center;
+  }
+  
+  .cards__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+}
+
+@media(max-width: 576px) {
+  .container {
+    max-width: auto;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+  
+  .header__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  
+  .header__banner {
+    height: 70vh;
+  }
+  
+  .header__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .header__desc {
+    margin-bottom: 20px;
+  }
+  
+  .ecommerce__desc {
+    margin-bottom: 15px;
+  }
+  
+  .collection__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  
+  .collection__btn {
+    max-width: 170px;
+  }
+  
+  .footer__content .container {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 535px)  {
+  .header__list li:nth-child(3) {
+    order: 1;
+  }
+  
+  .header__dropdown {
+    top: 200px;
+  }
+  
+  
+}
+
+@media(max-width: 411px) {
+  .header__list li:nth-last-child(1) {
+    order: 2;
+  }
+}
+
+@media(max-width: 385px) {
+  .header__title {
+    font-size: 23px;
+  }
+}
